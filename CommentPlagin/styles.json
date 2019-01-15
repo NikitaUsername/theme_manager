@@ -1,0 +1,34 @@
+{
+    "styleslist": [
+        {
+            "style" : "Packages/Color Scheme - Default/Monokai.sublime-color-scheme"
+        },  
+        {
+            "style" : "Packages/3024 Color Scheme/3024 Night.tmTheme"
+        }, 
+        {
+            "style" : "Packages/Color Scheme - Default/Breakers.sublime-color-scheme"
+        }, 
+        {
+            "style" : "Packages/Theme - Tech49/Tech49.tmTheme"
+        }, 
+        {
+            "style" : "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
+        }, 
+        {
+            "style" : "Adaptive.sublime-theme"
+        }, 
+        {
+            "style" : "Eightlime Dark.sublime-theme"
+        }, 
+        {
+            "style" : "Default.sublime-theme"
+        },
+        {
+            "style" : "Tech49.sublime-theme"
+        },
+        {
+            "style" : "Spacegray Eighties.sublime-theme"
+        }
+    ]
+}

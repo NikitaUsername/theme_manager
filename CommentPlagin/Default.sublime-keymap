@@ -1,0 +1,3 @@
+[
+    { "keys": [ "ctrl+shift+i" ], "command": "my_plugin" }
+]
