@@ -21,12 +21,16 @@ class MyPluginCommand(sublime_plugin.TextCommand):
 		
 		with open(user_styles, 'r') as f:
 			data_to = json.loads(f.read())
+			
 
 		with open(styles_data, 'r') as f:
 			data_from = json.loads(f.read())
+			
 
-
+        
 		self.change_json(data_from, data_to, symbol, user_styles)
+		sublime.status_message("Текущий стиль:" + " " + data_to["color_scheme"] + "  " "Текущая тема: " + data_to["theme"])
+
 
 
 	def change_json(self, data_from, data_to, symbol, user_styles):
@@ -34,10 +38,13 @@ class MyPluginCommand(sublime_plugin.TextCommand):
 		k = int(symbol)
 		if k < 5:
 			data_to["color_scheme"] = new_style
+			
 		else:
 			data_to["theme"] = new_style
+			
 
 		with open(user_styles, 'w') as f:
 		    f.write(json.dumps(data_to))
+
 
 		
