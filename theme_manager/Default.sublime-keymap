@@ -1,3 +1,5 @@
 [
-    { "keys": [ "ctrl+shift+i" ], "command": "my_plugin" }
+    { "keys": [ "ctrl+shift+i" ], "command": "my_plugin" },
+    { "keys": [ "ctrl+shift+ш" ], "command": "my_plugin" }
+
 ]
